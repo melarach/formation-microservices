@@ -1,0 +1,19 @@
+<h1 class="mt-4">List wagons</h1>
+<table id="example" class="table table-striped" style="width: 50%">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>status</th>
+      <th>Code</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of listWagons">
+      <td>{{ item.id }}</td>
+      <td>{{ item.status }}</td>
+      <td>{{ item.code }}</td>
+      <td>{{ item.type }}</td>
+    </tr>
+  </tbody>
+</table>
