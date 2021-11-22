@@ -2,7 +2,7 @@ export const environment = {
   production: false,
   urlGateway: 'http://localhost:8888/',
   microservices: {
-   micro1:'MICRO1',
+   api1:'API1',
   } ,
   keycloak: {
     // Url of the Identity Provider

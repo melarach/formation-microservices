@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: api1
+  cloud:
+    config:
+      uri: http://localhost:9001/
+      enabled: true 
+      username: admin
+      password: admin     
+ 
+logging:
+  level: 
+    root: info
+    
+ 

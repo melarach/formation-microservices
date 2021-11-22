@@ -1,0 +1,8 @@
+# encrypt:
+  # key-store:
+   # location: file:///C:/keystore/server.jks #using asymmetric encryption
+   #  location: classpath:store/config-server.jks #using asymmetric encryption
+   # password: my-s70r3-s3cr3t
+   #  alias: config-server-key
+   #  secret: my-k34-s3cr3t   
+ # key: springcloudconfig #using symmetric encryption

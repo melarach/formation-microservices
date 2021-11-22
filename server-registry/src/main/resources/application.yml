@@ -1,0 +1,24 @@
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+  instance:
+    prefer-ip-address: true
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 8761
+spring:
+  application:
+    name: registry-server
+  main:
+    allow-bean-definition-overriding: true
+
+
+

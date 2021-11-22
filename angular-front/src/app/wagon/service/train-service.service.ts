@@ -15,6 +15,6 @@ export class TrainService {
 
 public listWagons()
 {
-  return this.http.get<Wagon[]>(environment.microservices.micro1+'/wagons');
+  return this.http.get<Wagon[]>(environment.microservices.api1+'/wagons/');
 }
 }
